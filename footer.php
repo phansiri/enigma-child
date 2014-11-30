@@ -57,6 +57,6 @@
 <!-- /Footer Widget Secton -->
 </div>
 <!--<a href="#" title="Go Top" class="enigma_scrollup" style="display: inline;"><i class="fa fa-chevron-up"></i></a>-->
-<?php //wp_footer(); ?>
+<?php wp_footer(); ?>
 </body>
 </html>
