@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<?php
-            if (dynamic_sidbar('new_footer_widget_area')): else : endif;
+            if (dynamic_sidebar('new_footer_widget_area')): else : endif;
 //			if ( is_active_sidebar( 'footer-widget-area' ) ){
 //				dynamic_sidebar( 'footer-widget-area' );
 //			} else
