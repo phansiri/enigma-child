@@ -52,7 +52,7 @@
 					<ul class="social">
 					<?php if($wl_theme_options['fb_link']!='') { ?>
 					   <li class="facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook"><a  href="<?php echo esc_url($wl_theme_options['fb_link']); ?>"><i class="fa fa-facebook"></i></a></li>
-					<?php } if($wl_theme_options['twitter_link']!='') { ?>
+					<?php } ?>
 					</ul>	
 				</div>
 				<?php } ?>
