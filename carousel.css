@@ -15,6 +15,10 @@ div.item img.img-responsive  {
     top: 50%;
  }
 
+div.item {
+    position: relative;
+}
+
 div.carousel-inner {
     height: 570px;
     background-color: #4B2E83;
@@ -23,6 +27,12 @@ div.carousel-inner {
     position: relative;
 }
 
-div.carousel-text ul.carousel-list{
+div.carousel-text ul.carousel-list li {
     background-color: #4B2E83;
+}
+
+div.item div.container {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
 }
