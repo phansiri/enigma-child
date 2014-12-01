@@ -11,7 +11,7 @@ function enigma_child_widgets_init() {
         array(
             'name' => 'New Footer Widget Area',
             'id' => 'new_footer_widget_area',
-            'before_widget' => '<div class="col-md-4 col-sm-6 enigma_footer_widget_column">',
+            'before_widget' => '<div class="col-md-3 col-sm-6 enigma_footer_widget_column">',
             'after_widget' => '</div>',
             'before_title'  => '<h3 class="enigma_footer_widget_title">',
             'after_title'   => '<div id="" class="enigma-footer-separator"></div></h3>'
