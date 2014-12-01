@@ -72,3 +72,7 @@ body {
 .enigma_footer_area p a {
 	color: #e8e3d3;
 }
+
+.enigma_footer_widget_area a {
+	color: black;
+}
