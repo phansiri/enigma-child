@@ -51,9 +51,6 @@
                  <ul class="list-unstyled carousel-list">
                  <li class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_desc_2']); ?></li>
                  </ul>
-                 <?php }
-                if($wl_theme_options['slide_btn_text_2']!='') { ?>
-                 <a class="enigma_blog_read_btn animated bounceInUp" href="<?php if($wl_theme_options['slide_btn_link_2']!='') { echo esc_attr($wl_theme_options['slide_btn_link_2']); } ?>" role="button"><?php echo esc_attr($wl_theme_options['slide_btn_text_2']); ?></a>
                   <?php } ?>
                 </div>
                 <?php } ?>
