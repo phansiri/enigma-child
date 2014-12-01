@@ -22,7 +22,7 @@ body {
 	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 .logo a::before {
-	content:url(http://depts.washington.edu/uwnrotc/images/uwlogo.jpg);
+	content:url(http://depts.washington.edu/uwnrotc/images/uwlogo.gif);
 }
 
 .enigma_service {
