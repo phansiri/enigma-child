@@ -17,6 +17,9 @@
 	<link rel="shortcut icon" href="<?php  echo $wl_theme_options['upload_image_favicon']; ?>" /> 
 	<?php } ?>	
 	<?php wp_head(); ?>
+	<style>
+    		@import url("<?php bloginfo('stylesheet_url'); ?>");
+    	</style>
 </head>
 <body <?php body_class(); ?> id="">
 <div>
