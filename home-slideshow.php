@@ -29,9 +29,6 @@
                   <ul class="list-unstyled carousel-list">
                  <li class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_desc_1']); ?></li>
                  </ul>
-                 <?php }
-                if($wl_theme_options['slide_btn_text_1']!='') { ?>
-                <a class="enigma_blog_read_btn animated bounceInUp" href="<?php if($wl_theme_options['slide_btn_link_1']!='') { echo esc_url($wl_theme_options['slide_btn_link_1']); } ?>" role="button"><?php echo esc_attr($wl_theme_options['slide_btn_text_1']); ?></a>
                 <?php } ?>
                 </div>
                 <?php } ?>
