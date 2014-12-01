@@ -11,7 +11,8 @@
 
 div.item img.img-responsive  {
      max-height: 540px;
-     vertical-align: middle;
+     position: absolute;
+    top: 50%;
  }
 
 div.carousel-inner {
@@ -19,4 +20,9 @@ div.carousel-inner {
     background-color: #4B2E83;
     border-top: 3px;
     border-bottom: 3px;
+    position: relative;
+}
+
+div.carousel-text ul.carousel-list{
+    background-color: #4B2E83;
 }
