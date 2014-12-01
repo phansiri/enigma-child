@@ -9,12 +9,14 @@
 */
 
 
-div.carousel-inner div.item img.img-responsive  {
-     max-height: 570px;
+div.item img.img-responsive  {
+     max-height: 540px;
      vertical-align: middle;
  }
 
 div.carousel-inner {
     height: 570px;
-    background-color: #000000;
+    background-color: #4B2E83;
+    border-top: 3px;
+    border-bottom: 3px;
 }
