@@ -1,0 +1,14 @@
+/*
+ Theme Name:     Enigma Child Theme
+ Theme URI:      http://weblizar.com/themes/enigma/
+ Description:    Enigma Child Theme - INFO 343 Final Project
+ Author:         Lit Phansiri / Thomas Tseng / Izzy Gambliel
+ Author URI:     http://weblizar.com/
+ Template:       enigma
+ Version:        1.5
+*/
+
+
+div.carousel-inner.item {
+    min-height: 570px;
+}
