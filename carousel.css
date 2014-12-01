@@ -9,29 +9,35 @@
 */
 
 
-div.item img.img-responsive  {
-     max-height: 540px;
-     position: absolute;
-    top: 50%;
- }
-
 div.item {
     position: relative;
 }
+
+div.item img  {
+    max-height: 540px;
+    position: absolute;
+    top: 15px;
+}
+
 
 div.carousel-inner {
     height: 570px;
     background-color: #4B2E83;
     border-top: 3px;
     border-bottom: 3px;
+    border-color: #000000;
     position: relative;
 }
 
-div.carousel-text ul.carousel-list li {
+div.carousel-text ul.carousel-list li.animated {
+    background: none;
+}
+
+div.carousel-text ul.carousel-list li.animated {
     background-color: #4B2E83;
 }
 
-div.item div.container {
+div.container {
     position: absolute;
     bottom: -30px;
     right: -30px;
