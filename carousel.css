@@ -41,3 +41,7 @@ div.carousel-inner div.item div.container {
     bottom: -400px;
     right: -190px;
 }
+
+div.carousel-text h1 {
+    font-size: 14px;
+}
