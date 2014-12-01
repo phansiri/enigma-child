@@ -9,7 +9,6 @@
       </ol>
       <div class="carousel-inner">
 
-        <div class="carousel-offset">
           <?php $wl_theme_options = weblizar_get_options();
             $ImageUrl1 = WL_TEMPLATE_DIR_URI ."/images/1.png";
             $ImageUrl2 = WL_TEMPLATE_DIR_URI ."/images/2.png";
@@ -30,9 +29,6 @@
                   <ul class="list-unstyled carousel-list">
                  <li class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_desc_1']); ?></li>
                  </ul>
-                 <?php }
-                if($wl_theme_options['slide_btn_text_1']!='') { ?>
-                <a class="enigma_blog_read_btn animated bounceInUp" href="<?php if($wl_theme_options['slide_btn_link_1']!='') { echo esc_url($wl_theme_options['slide_btn_link_1']); } ?>" role="button"><?php echo esc_attr($wl_theme_options['slide_btn_text_1']); ?></a>
                 <?php } ?>
                 </div>
                 <?php } ?>
@@ -55,9 +51,6 @@
                  <ul class="list-unstyled carousel-list">
                  <li class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_desc_2']); ?></li>
                  </ul>
-                 <?php }
-                if($wl_theme_options['slide_btn_text_2']!='') { ?>
-                 <a class="enigma_blog_read_btn animated bounceInUp" href="<?php if($wl_theme_options['slide_btn_link_2']!='') { echo esc_attr($wl_theme_options['slide_btn_link_2']); } ?>" role="button"><?php echo esc_attr($wl_theme_options['slide_btn_text_2']); ?></a>
                   <?php } ?>
                 </div>
                 <?php } ?>
@@ -89,8 +82,7 @@
                 </div>
               </div>
             </div>
-        </div>
-		
+
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
