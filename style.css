@@ -38,7 +38,7 @@
 	border-bottom: 4px solid #4B2E83;
 }
 .enigma_blog_thumb_wrapper {
-	border-bottom:  5px solid #4B2E83
+	border-bottom:  5px solid #4B2E83;
 }
 
 .enigma_blog_thumb_wrapper h2 a {
@@ -46,5 +46,7 @@
 }
 
 .enigma_blog_read_btn {
-	border: 2px solid
+	border: 2px solid #4B2E83;
+	background-color: #4B2E83;
+	background-image: linear-gradient(to bottom, #4B2E83 50%, #FFF 50%);
 }
