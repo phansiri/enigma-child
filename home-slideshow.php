@@ -23,13 +23,7 @@
                 <div class="carousel-caption">
                 <?php if($wl_theme_options['slide_title_1']!='') {  ?>
                 <div class="carousel-text">
-                <h1 class="animated bounceInRight"><?php echo esc_attr($wl_theme_options['slide_title_1']); ?></h1>
-                <?php
-                 if($wl_theme_options['slide_desc_1']!='') {  ?>
-                  <ul class="list-unstyled carousel-list">
-                 <li class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_desc_1']); ?></li>
-                 </ul>
-                <?php } ?>
+                <h1 class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_title_1']); ?></h1>
                 </div>
                 <?php } ?>
                 </div>
@@ -45,13 +39,7 @@
                 <div class="carousel-caption">
                 <?php if($wl_theme_options['slide_title_2']!='') {  ?>
                 <div class="carousel-text">
-                  <h1 class="animated bounceInRight"><?php echo esc_attr($wl_theme_options['slide_title_2']); ?></h1>
-                <?php
-                 if($wl_theme_options['slide_desc_2']!='') {  ?>
-                 <ul class="list-unstyled carousel-list">
-                 <li class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_desc_2']); ?></li>
-                 </ul>
-                  <?php } ?>
+                  <h1 class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_title_2']); ?></h1>
                 </div>
                 <?php } ?>
                 </div>
@@ -67,13 +55,7 @@
                 <div class="carousel-caption">
                 <?php if($wl_theme_options['slide_title_3']!='') {  ?>
                 <div class="carousel-text">
-                  <h1 class="animated bounceInRight"><?php echo esc_attr($wl_theme_options['slide_title_3']); ?></h1>
-                <?php
-                 if($wl_theme_options['slide_desc_3']!='') {  ?>
-                 <ul class="list-unstyled carousel-list">
-                 <li class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_desc_3']); ?></li>
-                 </ul>
-                  <?php } ?>
+                  <h1 class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_title_3']); ?></h1>
                 </div>
                 <?php } ?>
                 </div>
