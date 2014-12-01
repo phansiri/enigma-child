@@ -25,7 +25,7 @@ div.carousel-inner div.item {
 div.carousel-inner div.item img  {
     max-height: 540px;
     position: absolute;
-    top: 30px;
+    top: 25px;
 }
 
 div.carousel-text ul.carousel-list li.animated {
@@ -39,5 +39,5 @@ div.carousel-text ul.carousel-list li.animated {
 div.carousel-inner div.item div.container {
     position: absolute;
     bottom: -440px;
-    right: -90px;
+    right: -150px;
 }
