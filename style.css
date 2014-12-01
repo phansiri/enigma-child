@@ -23,6 +23,8 @@ body {
 }
 .logo a::before {
 	content:url(http://depts.washington.edu/uwnrotc/images/uwlogo.gif);
+	width: 150px;
+	height: 150px;
 }
 
 .enigma_service {
