@@ -15,6 +15,12 @@
 ------------------------------------------------------- */
 
 
+body {
+	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.logo a {
+	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 .enigma_service {
 	display: none;
 }
@@ -29,24 +35,28 @@
 	background: #4B2E83;
 	border-top: 1px solid #FFF;
 }
-
 .navigation_menu {
 	border-top: none;
 }
-
 .enigma_heading_title h3 {
 	border-bottom: 4px solid #4B2E83;
 }
 .enigma_blog_thumb_wrapper {
 	border-bottom:  5px solid #4B2E83;
 }
-
 .enigma_blog_thumb_wrapper h2 a {
 	color: #000;
 }
-
 .enigma_blog_read_btn {
 	border: 2px solid #4B2E83;
 	background-color: #4B2E83;
 	background-image: linear-gradient(to bottom, #4B2E83 50%, #FFF 50%);
 }
+.enigma_blog_thumb_date li i {
+	color: #4B2E83;
+}
+.navbar-collapse {
+	max-height: 50px;
+	margin-top: 50px;
+}
+
