@@ -50,3 +50,12 @@
 	background-color: #4B2E83;
 	background-image: linear-gradient(to bottom, #4B2E83 50%, #FFF 50%);
 }
+
+.enigma_blog_thumb_date li i {
+	color: #4B2E83;
+}
+
+.navbar-collapse {
+	max-height: 50px;
+	margin-top: 50px;
+}
