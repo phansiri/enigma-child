@@ -9,7 +9,6 @@
       </ol>
       <div class="carousel-inner">
 
-        <div class="carousel-offset">
           <?php $wl_theme_options = weblizar_get_options();
             $ImageUrl1 = WL_TEMPLATE_DIR_URI ."/images/1.png";
             $ImageUrl2 = WL_TEMPLATE_DIR_URI ."/images/2.png";
@@ -89,8 +88,7 @@
                 </div>
               </div>
             </div>
-        </div>
-		
+
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>

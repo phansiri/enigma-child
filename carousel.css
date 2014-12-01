@@ -14,7 +14,7 @@ div.carousel-inner div.item img.img-responsive  {
      vertical-align: middle;
  }
 
-div.carousel-offset {
+div.carousel-inner {
     height: 570px;
     background-color: #000000;
 }
