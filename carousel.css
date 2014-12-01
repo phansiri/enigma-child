@@ -9,17 +9,6 @@
 */
 
 
-div.item {
-    position: relative;
-}
-
-div.item img  {
-    max-height: 540px;
-    position: absolute;
-    top: 15px;
-}
-
-
 div.carousel-inner {
     height: 570px;
     background-color: #4B2E83;
@@ -27,6 +16,16 @@ div.carousel-inner {
     border-bottom: 3px;
     border-color: #000000;
     position: relative;
+}
+
+div.carousel-inner div.item {
+    position: relative;
+}
+
+div.carousel-inner div.item img  {
+    max-height: 540px;
+    position: absolute;
+    top: 15px;
 }
 
 div.carousel-text ul.carousel-list li.animated {
@@ -37,7 +36,7 @@ div.carousel-text ul.carousel-list li.animated {
     background-color: #4B2E83;
 }
 
-div.container {
+div.carousel-inner div.item div.container {
     position: absolute;
     bottom: -30px;
     right: -30px;
