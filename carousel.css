@@ -9,6 +9,12 @@
 */
 
 
-div.carousel-inner.item {
-    min-height: 570px;
+div.carousel-inner div.item img.img-responsive  {
+     max-height: 570px;
+     vertical-align: middle;
+ }
+
+div.carousel-offset {
+    height: 570px;
+    background-color: #000000;
 }
