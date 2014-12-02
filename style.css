@@ -79,6 +79,19 @@ body {
 	color: black;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-	color: #E8E3D3;
+/*meta sidebar color*/
+.enigma_sidebar_widget {
+	border-left: 3px solid #4B2E83;
+	border-right: 3px solid #4B2E83;
+	border-bottom: 3px solid #4B2E83;
 }
+.enigma_sidebar_widget_title {
+	background: #4B2383;
+}
+
+
+
+
+
+
+
