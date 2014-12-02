@@ -22,9 +22,7 @@ body {
 	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 .logo a::before {
-	content:url(http://depts.washington.edu/uwnrotc/drupal_new/sites/default/files/logo_1.png);
-	width: 150px;
-	height: 150px;
+	content:url(http://depts.washington.edu/uwnrotc/images/2014_nrotc_logo.png);
 }
 
 .enigma_service {
