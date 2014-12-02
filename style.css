@@ -78,3 +78,7 @@ body {
 .enigma_footer_widget_area a {
 	color: black;
 }
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #E8E3D3;
+}
