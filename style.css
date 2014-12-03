@@ -93,6 +93,9 @@ body {
 .dropdown-menu {
 	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+.dropdown-menu > li > a {
+	background-color: #85754d;
+}
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
 	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -106,6 +109,12 @@ body {
 .enigma_header_breadcrum_title h1{
 	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	color: #85754d;
+}
+.breadcrumb {
+	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.breadcrumb li a{
+	color:#4b2e83;
 }
 
 .enigma_service {
