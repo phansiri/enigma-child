@@ -88,11 +88,18 @@ body {
 .enigma_sidebar_widget_title {
 	background: #4B2383;
 }
-
+/*side bar image for donate button*/
 p, .textwidget {
 	margin-left: 65px;
 }
 
+/*login page*/
+#login {
+	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+}
+.login form {
+	border-radius: 25px;
+}
 
 
 
