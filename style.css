@@ -114,7 +114,7 @@ body {
 	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 .breadcrumb li a{
-	color:#4b2e83;
+	color:#4b2e83 !important;
 }
 
 .enigma_service {
