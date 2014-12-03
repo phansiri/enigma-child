@@ -94,13 +94,16 @@ p, .textwidget {
 }
 
 /*login page*/
-#login {
-	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;	
-}
 .login form {
+	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	border-radius: 25px;
 }
-
+.login #nav {
+	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+}
+.login #backtoblog, .login #nav {
+	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;		
+}
 
 
 
