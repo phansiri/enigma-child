@@ -56,7 +56,7 @@ body {
 /** headings titles css ***/
 .enigma_heading_title h3 {
 	border-bottom: 4px solid #4B2E83;
-	color: #3b3b3b;
+	color: #4B2E83;
 }
 .enigma_heading_title2 h3 {
 	border-bottom: 2px solid #4B2E83;
@@ -67,6 +67,12 @@ body {
 	background:rgba(51, 0, 111, 0.8);
 }
 
+/***** Navbar Menu  **********************************************************************************
+****************************************************************************************************/
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #049CFD;
+}
 
 .enigma_service {
 	display: none;
