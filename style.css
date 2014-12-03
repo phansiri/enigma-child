@@ -11,6 +11,7 @@
 @import url("../enigma/style.css");
 @import url("carousel.css");
 @import url("../enigma/css/default.css");
+@import url("../enigma/css/enigma-theme.css");
 
 /* =Theme customization starts here
 ------------------------------------------------------- */
@@ -73,7 +74,6 @@ body {
 .navbar-default .navbar-toggle:focus {
   background-color: #4B2E83;
 }
-
 .enigma_service {
 	display: none;
 }
