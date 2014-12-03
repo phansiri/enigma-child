@@ -10,6 +10,7 @@
 
 @import url("../enigma/style.css");
 @import url("carousel.css");
+@import url("../enigma/css/default.css");
 
 /* =Theme customization starts here
 ------------------------------------------------------- */
@@ -24,6 +25,34 @@ body {
 .logo a::before {
 	content:url(http://depts.washington.edu/uwnrotc/images/2014_nrotc_logo.png);
 }
+
+/** navbar menus ***/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.dropdown-menu .active a {	
+	background-color: #4B2E83;
+}
+.collapse ul.nav li.current-menu-parent .dropdown-toggle, .collapse ul.nav li.current-menu-item .dropdown-toggle,
+.navbar-default .navbar-collapse ul.nav li.current-menu-parent .dropdown-toggle,.navbar-default .navbar-collapse ul.nav li.current-menu-item .dropdown-toggle
+.collapse ul.nav li.current_page_ancestor .dropdown-toggle,.collapse ul.nav li.current_page_ancestor .dropdown-toggle,
+.navbar-default .navbar-collapse ul.nav li.current_page_ancestor .dropdown-toggle,.navbar-default .navbar-collapse ul.nav li.current_page_ancestor .dropdown-toggle
+{
+	background-color: #4B2E83;
+	box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
+	color: #fff !important;
+	border-radius:0px;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #4B2E83;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #4B2E83;
+}
+
 
 .enigma_service {
 	display: none;
