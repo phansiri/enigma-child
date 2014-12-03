@@ -82,6 +82,7 @@ body {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
+	background-color: #4B2E83;
 	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 .navbar-default .navbar-nav > li > a{
@@ -89,7 +90,6 @@ body {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	background-color: #4B2E83;
 	font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
