@@ -89,7 +89,9 @@ body {
 	background: #4B2383;
 }
 
-
+p, .textwidget {
+	margin-left: 65px;
+}
 
 
 

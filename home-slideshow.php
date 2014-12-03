@@ -6,15 +6,13 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>        
         <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>        
       </ol>
       <div class="carousel-inner">
 
           <?php $wl_theme_options = weblizar_get_options();
             $ImageUrl1 = WL_TEMPLATE_DIR_URI ."/images/1.png";
             $ImageUrl2 = WL_TEMPLATE_DIR_URI ."/images/2.png";
-            $ImageUrl3 = WL_TEMPLATE_DIR_URI ."/images/3.png";
-            $ImageUrl4 = WL_TEMPLATE_DIR_URI ."/images/4.png"  ?>
+            $ImageUrl3 = WL_TEMPLATE_DIR_URI ."/images/3.png";  ?>
             <div class="item active">
                 <?php if($wl_theme_options['slide_image_1']!='') {  ?>
               <img src="<?php echo esc_url($wl_theme_options['slide_image_1']); ?>" class="img-responsive" alt="<?php echo esc_attr($wl_theme_options['slide_title_1']); ?>">
@@ -63,22 +61,7 @@
                 </div>
               </div>
             </div>
-            <div class="item">
-                <?php if($wl_theme_options['slide_image_4']!='') {  ?>
-              <img src="<?php echo esc_url($wl_theme_options['slide_image_4']); ?>" class="img-responsive" alt="<?php echo esc_attr($wl_theme_options['slide_title_4']); ?>">
-              <?php } else { ?>
-              <img src="<?php echo esc_url($ImageUrl4); ?>" class="img-responsive" alt="Third slide">
-              <?php } ?>
-              <div class="container">
-                <div class="carousel-caption">
-                <?php if($wl_theme_options['slide_title_4']!='') {  ?>
-                <div class="carousel-text">
-                  <h1 class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_title_4']); ?></h1>
-                </div>
-                <?php } ?>
-                </div>
-              </div>
-            </div>
+
 
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
