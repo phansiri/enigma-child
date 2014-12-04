@@ -190,7 +190,7 @@ background-color: #4B2383;
 	background: #4B2383;
 }
 /*side bar image for donate button*/
-p, .textwidget {
+.enigma_sidebar_widget  .textwidget {
 	margin-left: 65px;
 }
 
