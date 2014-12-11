@@ -9,6 +9,10 @@
 */
 
 
+div#myCarousel {
+	display: none;
+}
+
 div.carousel-inner {
     height: 580px;
     background-color: #4B2E83;
@@ -44,4 +48,13 @@ div.carousel-inner div.item div.container {
 
 div.carousel-text h1 {
     font-size: 14px;
+}
+
+
+@media (min-width: 992px) {
+
+	div#myCarousel {
+		display: inline;
+	}
+
 }
